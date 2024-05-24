@@ -28,8 +28,8 @@ def lambda_handler(event, __):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "Nombre-completo": "Victor Ivan Rayas Valdes",
-            "Grado": "9",
-            "Grupo": "B",
+            "Nombre_completo": "Victor Ivan Rayas Valdes",
+            "Grado: ": "9",
+            "Grupo: ": "B",
         }),
     }
