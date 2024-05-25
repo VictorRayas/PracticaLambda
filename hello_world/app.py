@@ -30,6 +30,7 @@ def lambda_handler(event, __):
         "body": json.dumps({
             "Nombre_completo": "Victor Ivan Rayas Valdes",
             "Grado: ": "9",
+            "year: ": "21",
             "Grupo: ": "B",
         }),
     }
