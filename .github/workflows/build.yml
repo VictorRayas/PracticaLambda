@@ -30,7 +30,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: <tu_región_de_AWS>
+          aws-region: us-east-1
       - name: Package AWS SAM Application
         run: sam build --template template.yaml
       - name: Deploy AWS SAM Application
